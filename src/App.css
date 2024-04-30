@@ -1,0 +1,84 @@
+body {
+  background: #EDEEEE;
+}
+
+.primary-button {
+  color: #fff;
+  background: #1c39c2;
+  font-family: "Sharp Grotesk", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid #1c39c2;
+  padding: 12px 24px;
+  border-radius: 100px;
+}
+
+.secondary-button {
+  color: #1c39c2;
+  background: #fff;
+  font-family: "Sharp Grotesk", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid #1c39c2;
+  padding: 12px 24px;
+  border-radius: 100px;
+}
+
+.page-content {
+  margin-top: 140px;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+.sharp-font {
+  font-family: "Sharp Grotesk", Sans-serif;
+}
+
+.manrope-font {
+  font-family: "Manrope", Sans-serif;
+}
+
+/* swiper */
+.swiper {
+  height: 680px;
+}
+
+.swiper-pagination {
+}
+
+.swiper-pagination-bullet {
+  width: 32px;
+  height: 32px;
+}
+
+/* looper */
+@keyframes slideAnimation {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.looper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.looper__innerList {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+}
+
+.looper__listInstance {
+  display: flex;
+  width: max-content;
+
+  animation: slideAnimation linear infinite;
+}
